@@ -1,0 +1,204 @@
+@font-face {
+    src: url('fonts/CircularStd-Bold.1ced22ee.woff');
+    font-family: circular;
+}
+
+/* * {
+    font-family: circular;
+} */
+
+.firstPage{
+    height: 100vh;
+}
+
+#firstBackground {
+    /* height: 100vh; */
+    background-image: url('../img/background.svg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+#display-first{
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center; */
+    height: 80vh;
+    align-items: center;
+    padding: 0;
+}
+
+
+.first-paragraph {
+    text-align: justify;
+    /* width: 70%; */
+    color: #90989c;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#step-inside {
+    background-color: #6630d8;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+#step-inside:hover{
+    color:  #6630d8;
+    background-color: lightgray;
+}
+#first-heading{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.jumbotron-margin {
+    margin-left: 5%;
+}
+
+footer  a {
+    color: #6630d8;
+}
+footer  a:hover {
+    text-decoration: none;
+}
+
+#footer-paragraph{
+    margin-top: 5%;
+    color: #90989c;
+
+}
+
+#cards {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/background.svg'); 
+    background-size: cover;
+}
+
+#cards .thumbnail{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 25px grey;
+
+}
+
+#cards .thumbnail:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+  } 
+#cards .btn {
+   
+    background-color: #6630d8;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 25px;
+    position: relative;
+    right: 10px;
+    top: 14px;
+}
+
+#cards .btn:hover{
+    color: #6630d8;
+    background-color: lightgray;
+}
+
+#cards .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+#cards .col-md-2 {
+    padding: 0;
+}
+#cards h3 {
+    font-weight: bold;
+}
+
+.footerParagraph {
+    color: white;
+    margin-right: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+footer .btn {
+    background-color: #071923;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 2px;
+}
+footer .btn:hover {
+    color:white;
+}
+
+footer #visitBrainster:hover {
+    background-color: #6630d8;
+    color: #071923;
+}
+
+footer #visitLaika{
+    padding: 12px 50px;
+}
+
+footer #visitLaika:hover {
+    background-color: #ede63f;
+    color:#071923 ;
+}
+
+footer .col-md-6 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* 
+#popUpBackground {
+    background-image: url('popup.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+} */
+
+.no-padding {
+    padding: 0;
+}
+
+.category-heading {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.margin-bottom {
+    margin-bottom:5%
+}
+
+.visit-brainsterDiv{
+    background-color: #ede63f;
+     height: 10vh;
+}
+
+.visit-laikaDiv {
+    background-color: #6630d8;
+    height: 10vh;
+}

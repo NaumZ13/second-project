@@ -1,0 +1,744 @@
+
+
+
+body {
+    line-height: 1.32857143;
+    /* font-family: myFont; */
+    background-image: url('../img/background.svg'); 
+    background-size: contain;
+    cursor: default;
+}
+
+
+.threeBtn {
+    color: #6630d8;
+    background-color: white;
+    box-shadow: 0px 0px 15px grey;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 14px 12px !important;
+    border-radius: 3px !important;
+    font-weight: bold !important;
+}
+
+.threeBtn:hover {
+    background-color: #6630d8;
+    color: white !important; 
+}
+
+/* .customWidthBtn {
+    width: 27% !important;
+} */
+ .focus {
+    background-color: #6630d8;
+    color: white !important;
+} 
+#boxCV {
+    background-color: white;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: 3%;
+    border-radius: 3px; 
+}
+#editBtn {
+    margin-top: 17%;
+    padding: 16px;
+    background-color: #6630d8;
+    color: white;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+
+    top: 15px;
+    /* display: none; */
+
+}
+
+
+#box {
+    position: relative;
+    top: -70px;
+    right: 3px;
+    z-index: 99999999999999;
+    background-color: black;
+    color: white;
+}
+
+#downloadBtn {
+    background-color: #6630d8;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 44px;     
+    border-radius: 3px;   
+    font-weight: bold;
+    font-size: 12px;
+  /* display: none; */
+}
+
+footer  a {
+    color: #6630d8;
+}
+footer  a:hover {
+    text-decoration: none;
+}
+
+#footer-paragraph{
+    margin-top: 5%;
+    color: #90989c;
+    margin-bottom: 1%;
+
+}
+
+footer{
+    position: relative;
+    bottom: 60px;
+}
+
+
+#rectangle{
+    margin-left: 5%;
+    width: 27%;
+    /* display: none; */
+    background-color: white;
+    height: 1510px;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: 3%;
+    border-radius: 3px;
+}
+.defaultText{
+    color: #abb2ba;
+    width: 18%;
+    font-size: 20px;
+    margin-left: 69px;
+    margin-top: 120px;
+    font-weight:bold;
+    position: fixed;
+    top: 0;
+    text-align: initial;
+}
+
+.mouseoverDataScience{
+    color: #abb2ba; 
+    width: 100%; 
+    font-size: 20px;
+    margin-top: 77px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: initial;
+}
+.circle {
+    list-style: none;
+}
+
+.circle li::before {
+    list-style-type: circle;
+    content: "\2022";
+  color: #468f99;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+     .linkedin {
+         display: none;
+     }
+
+     .skillsSpan {
+        border: 1px solid #468f99;
+        padding: 6px 9px;
+        border-radius: 3px;
+        background-color: #468f99;
+        color: white;
+     }
+
+     li {
+         font-size: 14px;
+     }
+
+    .radioBtn {
+        width: 20px;
+        height: 20px;
+    }
+
+    button[disabled], html input[disabled] {
+        cursor: default;
+        background-color: transparent;
+
+    }
+
+    #name {
+        border: none;
+        width: 95%;
+        font-size: 35px;
+    }
+
+    #name ::placeholder{
+        color: #2a343e;
+    }
+   
+    .col-padding{
+        padding:  0 !important;
+    }
+
+    .col-padding-left {
+         padding-left: 0 !important;
+    } 
+
+
+    textarea {
+        border: none;
+        resize: none;
+    }
+    textarea:disabled {
+        background-color: transparent;
+    }
+    textarea::placeholder {
+      color: #2a343e;
+  
+    }
+  
+    input::placeholder {
+        color: #2a343e;
+    }
+  
+    input {
+        border: none;
+       
+    }
+  
+    .addButtonGlyphicon {
+       
+        cursor: pointer;
+    }
+    .addWorkExpButton{
+        margin-top: 5%;
+
+    }
+    .addButtonGlyphicon:hover {
+       color: white;
+       border: 1px solid white;
+       border-radius: 3px;
+       padding: 6px 15px;
+        background-color: #2a343e;
+   }
+   .addWorkExpButton {
+    display: none;
+}
+
+.placeRight::placeholder {
+    text-align: right;
+}
+
+.addEducationGlyphicon {
+       
+    cursor: pointer;
+}
+.addEducationButton{
+    margin-top: 5%;
+
+}
+.addEducationGlyphicon:hover {
+   color: white;
+   border: 1px solid white;
+   border-radius: 3px;
+   padding: 6px 15px;
+    background-color: #2a343e;
+}
+.addEducationButton {
+display: none;
+}
+
+.dateInput::placeholder {
+    color: #a7a7a7;
+}
+
+/* .education_fields_wrap {
+    margin-top: 5%;
+} */
+
+.colorPlaceholder {
+    color: #a7a7a7;
+}
+
+.addCertificatesGlyphicon {
+       
+    cursor: pointer;
+}
+.addCertificatesButton{
+    margin-top: 5%;
+
+}
+.addCertificatesGlyphicon:hover {
+   color: white;
+   border: 1px solid white;
+   border-radius: 3px;
+   padding: 6px 15px;
+    background-color: #2a343e;
+}
+.addCertificatesButton {
+display: none;
+}
+
+
+.addLanguageGlyphicon {
+       
+    cursor: pointer;
+}
+.addLanguageButton{
+    margin-top: 5%;
+
+}
+.addLanguageGlyphicon:hover {
+   color: white;
+   border: 1px solid white;
+   border-radius: 3px;
+   padding: 6px 15px;
+    background-color: #2a343e;
+}
+.addLanguageButton {
+display: none;
+}
+
+
+.tag-container {
+    display: none;
+}
+#skillsInput {
+    border-bottom: none !important;
+}
+#app {
+    background: #fff;
+    border-radius: 4px;
+    /* box-shadow: 0 40px 50px rgba(0, 0, 0, 0.25); */
+    outline: none;
+    font-size: 1em;
+    border: 2px solid #2a343e;
+}
+#app input {
+    outline: none;
+    width: auto;
+   
+    float: left;
+    padding: 8px;
+    background: none;
+}
+#app::before {
+    content: '';
+    display: table;
+}
+#app::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.tag {
+    border-radius: 3px;
+    background: white;
+    color: #2a343e;
+    float: left;
+    margin: 3px;
+    padding: 4px;
+    font-size: 1em;
+    vertical-align: middle;
+    border:  1px solid #2a343e;
+    /* box-shadow: 0px 1px 4px #c6c6c6, 0px 2px 17px #d1d1d1; */
+}
+.tag a {
+    color: #2a343e;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+.tag span {
+    padding-right: 10px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.margin-topThree{
+    margin-top: 3%;
+}
+
+.img-div{
+    margin-left: 9%;
+    padding: 0;
+}
+
+.img-style{
+    width: 140px;
+    height: 140px;
+}
+
+.dataScientist{
+    font-size: 17px;
+    color: #a7a7a7;
+    font-weight: 600;
+}
+
+.data-scientitMotivational{
+    font-size:13px;
+    font-weight: bold;
+    width: 95%;
+}
+
+.dataScientist-panel{
+    color:black;
+    margin-top: 5%;
+    font-size: 13px;
+    border-right: none;
+    border-left: none;
+    border-top-color: #737373;
+    border-bottom-color: #737373;
+    border-radius: 0;
+}
+
+.marginInfo-email{
+    margin-left: 10%;
+}
+
+.margin-leftOne{
+    margin-left: 1%;
+}
+
+.marginInfo-phone{
+    margin-left: 3%;
+}
+
+.first-colMargin{
+    margin-left: 9%;
+}
+
+.workExp-heading{
+    text-transform: uppercase;
+    color: #4b5769;
+}
+
+.workExp_fields_wrap{
+    margin-top: 5%;
+}
+
+.jobField{
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.companyName{
+    font-size: 16px;
+    width: 100%;
+}
+
+.dateAndPlace{
+    display: flex;
+    justify-content: space-between;
+    color: #a7a7a7;
+}
+
+.achievements-span{
+    color: #a7a7a7;
+}
+
+.secondRow-workExp {
+    padding-top: 8%;
+}
+
+.educationRow{
+    margin-top: 10%;
+}
+
+
+.paddingLeft-zero{
+    padding-left: 0;
+}
+
+.education-heading{
+    text-transform: uppercase;
+    color: #4b5769;
+}
+
+.education_fields_wrap{
+    margin-top: 5%;
+}
+
+.educationSubject{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.educationPlace{
+    font-size: 16px;
+}
+
+.educationDateAndPlace{
+    display: flex;
+    justify-content: space-between;
+    color: #a7a7a7;
+}
+
+.secondEducation{
+    margin-top: 8%;
+    padding-bottom: 40%;
+}
+
+.skills-heading{
+    text-transform: uppercase;
+    color: #4b5769;
+}
+
+.skillsRow{
+    font-size: 12px;
+}
+
+.skillsDisplay-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillsDisplay-flexWithMargin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.margin-topFour{
+    margin-top: 4%;
+}
+
+.certificates-heading{
+    text-transform: uppercase;
+    color:#4b5769;
+}
+
+.margin-topLanguages{
+    margin-top: 10%;
+}
+
+.languages-heading{
+    text-transform: uppercase;
+    color: #4b5769;
+}
+
+.languageSkill{
+    color: #a7a7a7;
+}
+
+.margin-infernalEducation{
+    margin-top: 5%;
+}
+
+.informalEducation-heading{
+    text-transform: uppercase;
+    color: #4b5769;
+}
+
+.informalEducation-tag{
+    border: 1px solid #a7a7a7;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+
+.downloadButton-col{
+    padding-bottom: 2%;
+    margin-top: 10%;
+}
+
+
+.modalHeading{
+    font-weight: bold;
+    font-size: 46px;
+    position: relative;
+    left: 166px;
+    top: 80px;
+    text-align: initial;
+    line-height: 1.1;
+
+}
+
+
+.modalSpan {
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 166px;
+    top: 120px;
+    text-align: initial;
+    line-height: 1.3;
+}
+
+.modalSpan a {
+    color: #d83c6b;
+}
+
+.modalDisplaFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.customModalStyle{
+    width: 100%;
+    margin: 0;
+}
+
+.carousel-control:focus, .carousel-control.left, .carousel-control:hover, .carousel-control.right {
+    background: none;
+}
+
+#linkedin {
+    display:  none;
+    margin-left: 64px;
+    margin-top: 76px;
+   
+}
+
+#laika {
+    display:  none;
+    margin-left: 64px;
+    margin-top: 76px;
+   
+}
+
+.laikaButtonRightSlider
+{
+position: absolute;
+top: 50%;
+right: -24px !important;
+}
+
+.laikaButtonLeftSlider 
+{
+    position: absolute;
+top: 50%;
+left: 8px !important;
+}
+
+
+.addSkillsGlyphicon {
+       
+    cursor: pointer;
+}
+.addSkillsButton{
+    margin-top: 5%;
+
+}
+.addSkillsGlyphicon:hover {
+   color: white;
+   border: 1px solid white;
+   border-radius: 3px;
+   padding: 6px 15px;
+    background-color: #2a343e;
+}
+.addSkillsButton {
+display: none;
+}
+
+#imgDataScience{
+    width: 180px;
+    height: 180px;
+}
+
+.meMargin{
+    margin-top: 20px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#myStory{
+    margin-top: 7px;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+
+     opacity: 1 !important;
+
+}
+
+.baner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+ #visitBrainster:hover {
+    background-color: #6630d8;
+    color: #071923;
+}
+
+ #visitLaika{
+    padding: 12px 50px;
+}
+
+ #visitLaika:hover {
+    background-color: #ede63f;
+    color:#071923 ;
+}
+
+.baner .col-md-6 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.visit-brainsterDiv{
+    background-color: #ede63f;
+     height: 9vh;
+}
+
+.visit-laikaDiv {
+    background-color: #6630d8;
+    height: 9vh;
+}
+
+.footerParagraph {
+    color: white;
+    margin-right: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.baner .btn {
+    background-color: #071923;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 2px;
+}
+.baner .btn:hover {
+    color:white;
+}
+
+#pdfDownloader {
+    color: white;
+    background-color: #6630d8;
+    border: none;
+}
+
+#pdfDownloader:hover{
+    background-color: #abb2ba;
+    color: #6630d8;
+}
+
+.laikaCarouselShadow{
+    box-shadow: 0px 0px 10px grey !important;
+
+}
+
+.linkedinCarouselShadow{
+    box-shadow: 0px 0px 10px grey !important;
+
+}

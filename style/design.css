@@ -1,0 +1,413 @@
+
+body {
+    background-image: url('../img/background.svg'); 
+    background-size: contain;
+
+}
+
+#boxCV {
+    background-color: white;
+    box-shadow: 0px 0px 10px grey; 
+    margin-top: 3%;
+    border-radius: 3px;
+}
+.threeBtn {
+    color: #6630d8;
+    background-color: white;
+    box-shadow: 0px 0px 15px grey;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 14px 12px !important;
+    border-radius: 3px !important;
+    font-weight: bold !important;
+}
+
+.threeBtn:hover {
+    background-color: #6630d8;
+    color: white !important; 
+}
+
+
+ .focus {
+    background-color: #6630d8;
+    color: white !important;
+} 
+
+#editBtn {
+    margin-top: 17%;
+    padding: 14px;
+    background-color: #6630d8;
+    color: white;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    /* display: none; */
+
+}
+
+
+#box {
+    position: relative;
+    top: -70px;
+    right: 3px;
+    z-index: 99999999999999;
+    background-color: black;
+    color: white;
+}
+
+#downloadBtn {
+    background-color: #6630d8;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 44px;     
+    border-radius: 3px;   
+    font-weight: bold;
+    font-size: 12px;
+  /* display: none; */
+}
+
+footer  a {
+    color: #6630d8;
+}
+footer  a:hover {
+    text-decoration: none;
+}
+
+
+.col-padding {
+    padding: 0;
+}
+
+#rectangle{
+    margin-left: 5%;
+    width: 27%;
+    /* display: none; */
+    background-color: white;
+    height: 1257px;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: 3%;
+    border-radius: 3px;
+}
+#linkedin {
+    display:  none;
+    margin-left: 64px;
+    margin-top: 76px;
+   
+}
+
+#laika {
+    display:  none;
+    margin-left: 64px;
+    margin-top: 76px;
+   
+}
+
+.laikaButtonRightSlider
+{
+position: absolute;
+top: 50%;
+right: -24px !important;
+}
+
+.laikaButtonLeftSlider 
+{
+    position: absolute;
+top: 50%;
+left: 8px !important;
+}
+.defaultText{
+    color: #abb2ba;
+    width: 18%;
+    font-size: 20px;
+    margin-left: 69px;
+    margin-top: 120px;
+    font-weight:bold;
+    position: fixed;
+    top: 0;
+    text-align: initial;
+}
+
+.mouseoverDesign{
+    color: #abb2ba; 
+    width: 100%; 
+    font-size: 20px;
+    margin-top: 77px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: initial;
+}
+  #cv {
+    border: 3px solid black; 
+     margin-top: 10%; 
+     border-radius: 2px; 
+     margin-left: 12%;  }  
+
+     .linkedin {
+         display: none;
+     }
+
+
+     textarea {
+         width: 100%;
+         resize: none;
+         border: none;
+     }
+   textarea:disabled {
+       background-color: transparent;
+   }
+     textarea::placeholder{
+         color: black;
+     }
+
+     input {
+         width: 100%;
+         border: none;
+      
+     }
+
+     input:disabled {
+         background-color: transparent;
+     }
+
+     input::placeholder {
+         color: black;
+     }
+
+     .bold {
+         font-weight: bold;
+     }
+
+
+.addButtonDisplay {
+    display: none;
+    
+}
+
+.remove_field {
+    /* margin-right: 200px; */
+    display: none;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    left: 54px;
+}
+
+.remove_field:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px 15px;
+     background-color: #6630d8;
+}
+.addButton {
+    
+    cursor: pointer;
+}
+
+.addButton:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px 15px;
+     background-color: #6630d8;
+}
+
+.addButtonEducation {
+    display: none;
+}
+.addEducation {
+    cursor: pointer;
+}
+.addEducation:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px 15px;
+     background-color: #6630d8;
+}
+
+.addButton:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px 15px;
+     background-color: #6630d8;
+}
+
+.addButtonSkills {
+    display: none;
+}
+.addSkills {
+    cursor: pointer;
+}
+.addSkills:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 6px 15px;
+     background-color: #6630d8;
+}
+#skills {
+    padding-left: 0;
+  
+}
+
+.removeContact {
+    display: none;
+}
+
+#linkedin {
+    display: none;
+    margin-left: 64px;
+    margin-top: 76px;
+}
+
+#name {
+    background-color: black;
+}
+#name::placeholder {
+    color: white;
+}
+
+.customModalStyle{
+    width: 100% !important;
+    margin: 0;
+}
+
+
+.modalHeading{
+    font-weight: bold;
+    font-size: 46px;
+    position: relative;
+    left: 166px;
+    top: 13px;
+    text-align: initial;
+    line-height: 1.1;
+}
+
+
+.modalSpan {
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 166px;
+    top: 60px;
+    text-align: initial;
+    line-height: 1.3;
+}
+
+.modalSpan a {
+    color: #d83c6b;
+}
+
+.modalDisplaFlex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.carousel-control:focus, .carousel-control.left, .carousel-control:hover, .carousel-control.right {
+    background: none !important;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+
+    opacity: 1 !important;
+
+} 
+
+#footer-paragraph{
+    margin-top: 5%;
+    color: #90989c;
+    margin-bottom: 1%;
+
+}
+
+footer{
+    position: relative;
+    bottom: 60px;
+}
+
+.baner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+ #visitBrainster:hover {
+    background-color: #6630d8;
+    color: #071923;
+}
+
+ #visitLaika{
+    padding: 12px 50px;
+}
+
+ #visitLaika:hover {
+    background-color: #ede63f;
+    color:#071923 ;
+}
+
+.baner .col-md-6 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.visit-brainsterDiv{
+    background-color: #ede63f;
+     height: 9vh;
+}
+
+.visit-laikaDiv {
+    background-color: #6630d8;
+    height: 9vh;
+}
+
+.footerParagraph {
+    color: white;
+    margin-right: 3%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.baner .btn {
+    background-color: #071923;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 40px;
+    border-radius: 2px;
+}
+.baner .btn:hover {
+    color:white;
+}
+
+#pdfDownloader {
+    color: white;
+    background-color: #6630d8;
+    border: none;
+}
+
+#pdfDownloader:hover{
+    background-color:  lightgray;
+    color: #6630d8;
+}
+
+.modal {
+    overflow-y:auto;
+  }
+
+  .laikaCarouselShadow{
+    box-shadow: 0px 0px 10px grey !important;
+
+}
+
+.linkedinCarouselShadow{
+    box-shadow: 0px 0px 10px grey !important;
+
+}
